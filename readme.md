@@ -12,6 +12,14 @@ The driver listens to the navigators and focuses on translating ideas into code,
 ## Navigator(s) and Researcher(s)
 The main work is Navigators “thinking , describing, discussing, and steering” what we are designing/developing. The coding done by the Driver is simply the mechanics of getting actual code into the computer. The Driver is also often involved in the discussions, but her main job is to translate the ideas into code.
 
+## Getting started
+1. Download and install [dotnet core](https://www.microsoft.com/net/core)
+1. mkdir <project folder>
+1. cd <project folder>
+1. git clone https://github.com/jesperoastrom/DotNetStarter.git .
+1. git remote remove origin
+1. dotnet restore App*/project.json
+
 ## References
 [Mob programming](http://www.nljug.org/databasejava/mob-programming/)
 
