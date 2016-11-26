@@ -1,0 +1,7 @@
+{
+  "version": "1.0.0.*",
+  "dependencies": {
+    "App": "1.0.0.*",
+    "App.Tests": "1.0.0.*"
+  }
+}
