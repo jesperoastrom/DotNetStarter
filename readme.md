@@ -30,7 +30,7 @@ dotnet build App App.Tests
 
 ## Running the tests
 ```shell
-dotnet test App.Tests
+dotnet test App.Tests -verbose
 ```
 
 ## References
