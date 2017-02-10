@@ -5,7 +5,7 @@ Mob programming is a software development approach where the whole team works on
 We follow the driver/navigator style of work, originating as pair programming technique. We rotate driver every 10 minutes.
 
 ## Driver
-The driver sits at the keyboard types in the code.
+The driver sits at the keyboard and types in the code.
 
 The driver listens to the navigators and focuses on translating ideas into code, asking questions as needed.
 
