@@ -14,11 +14,24 @@ The main work is Navigators â€œthinking , describing, discussing, and steeringâ€
 
 ## Getting started
 1. Download and install [dotnet core](https://www.microsoft.com/net/core)
-1. mkdir <project folder>
-1. cd <project folder>
-1. git clone https://github.com/jesperoastrom/DotNetStarter.git .
-1. git remote remove origin
-1. dotnet restore App*/project.json
+1. 
+```shell
+mkdir mob_programming
+cd mob_programming
+git clone https://github.com/jesperoastrom/DotNetStarter.git .
+git remote remove origin
+dotnet restore App App.Tests
+```
+
+## Building the application
+```shell
+dotnet build App App.Tests
+```
+
+## Running the tests
+```shell
+dotnet test App.Tests
+```
 
 ## References
 [Mob programming](http://www.nljug.org/databasejava/mob-programming/)
